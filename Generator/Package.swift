@@ -21,7 +21,8 @@ let package = Package(
                 "Concurrency",
                 "SourceParsingFramework",
                 "SwiftSyntax",
-            ]),
+            ]
+            ),
         .testTarget(
             name: "NeedleFrameworkTests",
             dependencies: ["NeedleFramework"],
